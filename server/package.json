@@ -3,14 +3,17 @@
   "version": "1.0.0",
   "description": "",
   "main": "app.js",
+  "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start":"nodemon app.js"
+    "start": "nodemon app.js"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "express": "^5.2.1",
     "nodemon": "^3.1.11",
+    "socket.io": "^4.8.1",
     "ws": "^8.18.3"
   }
 }
